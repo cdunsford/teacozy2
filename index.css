@@ -1,0 +1,31 @@
+
+.apply-border {
+    border: 1px solid red;
+}
+body {
+    background-color: black;
+    color: seashell;
+}
+header {
+    height: 69px;
+    
+}
+#tea-logo {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+nav {
+    
+    width: 300px;
+    height: 50px;
+    float: right;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+li {
+    display: inline;
+}
