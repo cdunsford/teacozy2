@@ -1,12 +1,12 @@
 
-/*
+
 .apply-border {
     border: 1px solid red;
 }
 .apply-border2 {
     border: 2px solid green;
 }
-*/
+
 
 body {
     background-color: black;
@@ -101,6 +101,19 @@ a {
 }
 #monthly-tea-text h4 {
     margin-top: 0;
+    margin-bottom: 10px;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    max-width: 1000px;
+    padding-top: 10px;
+    
+}
+.product {
+    width: 300px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
