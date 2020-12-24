@@ -1,12 +1,11 @@
-
-
+/*
 .apply-border {
     border: 1px solid red;
 }
 .apply-border2 {
     border: 2px solid green;
 }
-
+*/
 
 body {
     background-color: black;
@@ -115,6 +114,14 @@ a {
     width: 300px;
     height: 200px;
     margin-bottom: 10px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+figure figcaption {
+
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
