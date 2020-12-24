@@ -1,6 +1,6 @@
 
 .apply-border {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 body {
     background-color: black;
@@ -8,9 +8,17 @@ body {
     opacity: 0.8;
     box-sizing: border-box;
     font-size: 22px;
+    
+
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header {
     height: 69px;
+    width: 100%;
     padding-bottom: 25px;
     border-bottom: 1px solid seashell;
 }
@@ -49,6 +57,15 @@ li {
 }
 a {
     color: seashell;
+}
+#mission-container {
+    display: flex;
+    background-image: url('./images/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
 }
 @media only screen and (max-width: 600px) {
     
