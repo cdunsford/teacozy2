@@ -105,14 +105,16 @@ a {
 #products {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
-    max-width: 1000px;
+    align-items: center;
+    justify-content:center;
+
+    max-width: 1200px;
     padding-top: 10px;
     
 }
 .product {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     margin-bottom: 10px;
 }
 .product img {
